@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: light
-  color: blue
+  color: zinc
 
 # SEO
 marketing:
@@ -35,7 +35,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me'
+    notice: '© {year} by Karen Li'
 
 # Localization
 locale:
