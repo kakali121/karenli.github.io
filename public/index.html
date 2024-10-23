@@ -1,7 +1,7 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
 <!-- Last Published: October 22, 2024 --><html lang="en-us" dir="ltr"
-      data-wc-theme-default="light">
+      data-wc-theme-default="system">
   
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
@@ -233,20 +233,6 @@
     }
   </style>
 
-  
-    
-    
-    
-      
-      
-      <style>
-        #page-bg {
-         background-image: url('http://localhost:1313/media/129880.svg');
-         background-position: center;
-         background-size: cover;
-        }
-      </style>
-      
   
 
   
@@ -588,10 +574,9 @@
 
   
   <div class="pt-2 d-flex justify-content-center prose prose-slate lg:prose-xl dark:prose-invert">
-    <div class="bio-text" style="text-align: justify; font-size: 0.9em;">
-      <p>Hi there, welcome to my page!</p>
-<p>I am a first year PhD student at <a href="https://react.seas.harvard.edu/" target="_blank" rel="noopener">REACT</a> lab at Harvard University working with Prof. Stephanie Gil. My research interests include developing robust navigation and mapping methods in autonomous systems, especially in the context of multi-agent systems. I am also interested in exploring the applications of robotics in various fields such as environmental monitoring, search and rescue.</p>
-<p>Before joining REACT lab, I was an undergraduate researcher at <a href="https://swarmslab.com/" target="_blank" rel="noopener">Swarms</a> Lab at Lehigh University working under Prof. David Saldaña. I obtained my B.S. in CS in May 2024.</p>
+    <div class="bio-text" style="font-size: 0.7em;">
+      <p>I am a first year PhD student at <a href="https://react.seas.harvard.edu/" target="_blank" rel="noopener">REACT</a> lab at Harvard University working with <a href="https://gil.seas.harvard.edu/" target="_blank" rel="noopener">Prof. Stephanie Gil</a>. My research interests include developing robust navigation and mapping methods in autonomous robots, especially in the context of multi-agent systems. I am also interested in exploring the applications of robotics in various fields such as environmental monitoring, search and rescue.</p>
+<p>Before joining REACT lab, I obtained my B.S. in Coputer Science at Lehigh University. I worked as an undergraduate researcher at <a href="https://swarmslab.com/" target="_blank" rel="noopener">Swarms</a> lab, under the supervision of <a href="https://swarmslab.com/david-saldana/" target="_blank" rel="noopener">Prof. David Saldaña</a>.</p>
 <h2 id="education">Education</h2>
 <dl>
 <dt>2024-Present</dt>
@@ -820,7 +805,6 @@
       <script>
   let bg = document.getElementById('page-bg');
   bg.style.setProperty('will-change', 'filter', '');
-  let hue = 0;
 
   
   let isDark = document.documentElement.classList.contains('dark');
@@ -831,17 +815,13 @@
 
   setInterval(
     function () {
-      hue = (hue + 1) % 360.;
-
       if (isDark) {
-        bg.style.setProperty('filter', 'hue-rotate(' + hue + 'deg) invert(1) saturate(2)', '');
+        bg.style.setProperty('filter', 'grayscale(1) brightness(1.5) invert(1) saturate(1.5)', '');
       } else {
-        bg.style.setProperty('filter', 'hue-rotate(' + hue + 'deg)', '');
+        bg.style.setProperty('filter', 'grayscale(1) brightness(1.2)', ''); 
       }
-
-    }, (5000 / 360.));
+    }, 100); 
 </script>
-
       
     
   

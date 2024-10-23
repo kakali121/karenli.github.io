@@ -1,7 +1,5 @@
 # [Fast & Flexible Link In Bio Theme](https://github.com/HugoBlox/theme-link-in-bio)
 
-[![Screenshot](./.github/preview.webp)](https://hugoblox.com/templates/)
-
 The **Fast & Flexible Link In Bio Template** empowers you to easily create a personalized and customizable page that houses all the important links that you want to share with your audience.
 
 It's a link-in-bio solution that can be used on social platforms like Instagram, TikTok, Twitch, Facebook, YouTube, Twitter, LinkedIn, and more, by pasting your website link in your social media bio. **Start accelerating the discovery of your work, brand, or business!**

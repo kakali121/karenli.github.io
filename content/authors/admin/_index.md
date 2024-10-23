@@ -42,12 +42,10 @@ profiles:
   #  label: Download my resume
 ---
 
-Hi there, welcome to my page!
-
-I am a first year PhD student at [REACT](https://react.seas.harvard.edu/) lab at Harvard University working with Prof. Stephanie Gil. My research interests include developing robust navigation and mapping methods in autonomous systems, especially in the context of multi-agent systems. I am also interested in exploring the applications of robotics in various fields such as environmental monitoring, search and rescue.
+I am a first year PhD student at [REACT](https://react.seas.harvard.edu/) lab at Harvard University working with [Prof. Stephanie Gil](https://gil.seas.harvard.edu/). My research interests include developing robust navigation and mapping methods in autonomous robots, especially in the context of multi-agent systems. I am also interested in exploring the applications of robotics in various fields such as environmental monitoring, search and rescue.
 
 
-Before joining REACT lab, I was an undergraduate researcher at [Swarms](https://swarmslab.com/) Lab at Lehigh University working under Prof. David Saldaña. I obtained my B.S. in CS in May 2024. 
+Before joining REACT lab, I obtained my B.S. in Coputer Science at Lehigh University. I worked as an undergraduate researcher at [Swarms](https://swarmslab.com/) lab, under the supervision of [Prof. David Saldaña](https://swarmslab.com/david-saldana/). 
 ## Education
 
 2024-Present

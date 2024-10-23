@@ -7,7 +7,7 @@ design:
   background:
     image:
       # Add your image background to `assets/media/`.
-      filename: 129880.svg
+      filename: ''
 
 sections:
   - block: resume-biography
@@ -16,7 +16,8 @@ sections:
       username: admin
     design:
       biography:
-        style: 'text-align: justify; font-size: 0.9em;'
+        # style: 'text-align: justify; font-size: 0.9em;'
+        style: 'font-size: 0.7em;'
   - block: cta-button-list
     content:
       # Need a custom icon?

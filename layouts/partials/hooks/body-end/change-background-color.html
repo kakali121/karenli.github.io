@@ -1,7 +1,6 @@
 <script>
   let bg = document.getElementById('page-bg');
   bg.style.setProperty('will-change', 'filter', '');
-  let hue = 0;
 
   // Dark mode support
   let isDark = document.documentElement.classList.contains('dark');
@@ -12,13 +11,10 @@
 
   setInterval(
     function () {
-      hue = (hue + 1) % 360.;
-
       if (isDark) {
-        bg.style.setProperty('filter', 'hue-rotate(' + hue + 'deg) invert(1) saturate(2)', '');
+        bg.style.setProperty('filter', 'grayscale(1) brightness(1.5) invert(1) saturate(1.5)', '');
       } else {
-        bg.style.setProperty('filter', 'hue-rotate(' + hue + 'deg)', '');
+        bg.style.setProperty('filter', 'grayscale(1) brightness(1.2)', ''); // Apply grayscale and adjust brightness for light mode
       }
-
-    }, (5000 / 360.));
+    }, 100); // Small interval to detect theme changes
 </script>
