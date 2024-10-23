@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Robotics PhD student @ Harvard University
+role: Robotics PhD Student @ Harvard University
 
 # Organizations/Affiliations to show in About widget
 organizations:
